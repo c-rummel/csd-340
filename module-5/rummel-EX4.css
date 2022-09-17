@@ -1,0 +1,58 @@
+/*Caleb Rummel
+September 4, 2022
+CSD 340
+Assignment 5.2*/
+
+body {
+    background-color: rgba(247, 112, 24, 0.2);
+}
+
+h1 {
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(185, 63, 8, 1.0);
+}
+
+h3 {
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(185, 63, 8, 1.0);
+}
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: .75em;
+    color: rgba(185, 63, 8, 1.0);
+}
+
+.image-gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.image-item {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: rgba(185, 63, 8, 1.0);
+    padding: 5px;
+}
+
+#last {
+    width: 100%;
+    text-align: right;
+    margin-top: 10%;
+    float: right;
+    margin-bottom: 20px;
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+    text-decoration: none;
+}

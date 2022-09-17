@@ -1,0 +1,64 @@
+/*Caleb Rummel
+August 19, 2022
+CSD 340
+Assingment 3.2*/
+
+body {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 3.052em;
+    word-spacing: 0.5em;
+    margin: 0em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+    font-weight: 500;
+    font-size: 2.441em;
+    word-spacing: 0.2em;
+    margin: 0em;
+    text-align: left;
+    padding-top: 15px;
+}
+
+p {
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+address {
+    font-family: 'Quattrocento', Georgia, "Times New Roman", serif;
+    text-align: center;
+}
+
+a:link {
+    font-weight: bold;
+    color: #4F3674;
+    text-decoration: none;
+}
+a:visited {
+    font-weight: bold;
+    color: brown;
+    text-decoration: none;
+}
+a:hover {
+    font-weight: bold;
+    color: #4F3674;
+    text-decoration: underline;
+    background-color: #D6A800;
+}
+
+.sentence {
+    font-style: italic;
+}
+
+.intro {
+    text-indent: .2em;
+}
