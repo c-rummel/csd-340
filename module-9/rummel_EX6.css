@@ -1,0 +1,129 @@
+/*Caleb Rummel
+September 23, 2022
+CSD 340
+Assingment 9.2*/
+
+header {
+    color: white;
+    background-color: rgb(186, 62, 8);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: rgb(186, 62, 8);
+    border-bottom: 15px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: rgb(154, 153, 103);
+}
+
+#navbar a{
+    float:left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+}
+
+#navbar a:hover{
+    background-color: rgb(154, 153, 103);
+    color: rgb(186, 62, 8);
+}
+
+#container {
+    margin: 2% 5% 100px 5%;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 50%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(186, 62, 8);
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+}
+
+.card-content {
+    padding: 2px 16px;
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+}
+
+#movies {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(186, 62, 8);
+    color: white;
+}
+
+#movies td {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ddd;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+footer {
+    background-color: rgb(186, 62, 8);
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    left: 0;
+    font-style: italic;
+    font-family: 'Oswald', Veranda, Arial, sans-serif;
+}
+
+#float-left {
+    float: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
