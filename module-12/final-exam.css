@@ -1,0 +1,155 @@
+/*Caleb Rummel
+October 5, 2022
+CSD 340
+Final Exam*/
+
+/* Color Theme Swatches in Hex */
+.Caleb-Colors-1-hex { color: #80A6A2; }
+.Caleb-Colors-2-hex { color: #736936; }
+.Caleb-Colors-3-hex { color: #F2F0E9; }
+.Caleb-Colors-4-hex { color: #F26052; }
+.Caleb-Colors-5-hex { color: #595959; }
+
+
+header {
+    color: #F2F0E9;
+    background-color: #736936;
+    padding: 20px;
+    text-align: center;
+}
+
+body {
+    background-color: #F2F0E9;
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: #736936;
+}
+
+#navbar{
+    overflow: hidden;
+    background-color: #80A6A2;
+    border-bottom: 15px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+    border-color: #F26052;
+}
+
+#navbar a{
+    float:left;
+    display: block;
+    color: #F2F0E9;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar a:hover{
+    background-color: #F26052;
+}
+
+#three-column {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+.card {
+
+}
+
+.card-title {
+    text-align: center;
+    font-size: 2em;
+    color: #595959;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-content {
+    padding: 2px 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    text-align: center;
+    margin-bottom: 10%;
+    font-size: 1.3em;
+}
+
+.button {
+    background-color: #80A6A2;
+    border: none;
+    border-radius: 4px;
+    color: #F2F0E9;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    box-shadow: 0 9px #595959;
+  }
+
+.button:hover {
+    background-color: #F26052;
+    color:#F2F0E9;
+}
+
+.button:active {
+    background-color: #F26052;
+    box-shadow: 0 5px #595959;
+    transform: translateY(4px)
+}
+
+footer {
+    background-color: #595959;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    font-style: italic;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #F2F0E9;
+    font-weight: 400;
+    float: right;
+    padding-right: 10px;
+    left: 0;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#float-left {
+    float: left;
+}
+
+footer a{
+    text-decoration: none;
+    color: #F2F0E9;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
