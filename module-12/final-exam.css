@@ -105,8 +105,8 @@ h2 {
     font-size: 1.3em;
     margin: 4px 2px;
     cursor: pointer;
-    transition-duration: 0.3s;
-    box-shadow: 0 9px #595959;
+    transition-duration: 0.2s;
+    box-shadow: 0 7px #595959;
   }
 
 .button:hover {
@@ -116,7 +116,7 @@ h2 {
 
 .button:active {
     background-color: #F26052;
-    box-shadow: 0 5px #595959;
+    box-shadow: 0 3px #595959;
     transform: translateY(4px)
 }
 
